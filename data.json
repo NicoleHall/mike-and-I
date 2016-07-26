@@ -1,4 +1,6 @@
 contacts_collection = [
-  {"name":"Dave Hall", "relationship":"friend", "state":"Colorado", "picture":"http://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1472081_10151835674769632_1455632347_n.jpg?oh=374d7d0f983da9ff10db593050e04c96&oe=581C71C2", "memory": "Mike claimed he found a bag of fireworks on the way to our wedding. He lit them off the balcony at Tony P’s. He loved to play with fire nearly as much as I do."}
+  {"name":"Dave Hall", "relationship":"friend", "state":"Colorado", "picture":"http://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1472081_10151835674769632_1455632347_n.jpg?oh=374d7d0f983da9ff10db593050e04c96&oe=581C71C2", "memory": "Mike claimed he found a bag of fireworks on the way to our wedding. He lit them off the balcony at Tony P’s. He loved to play with fire nearly as much as I do."},
+
+  {"name":"Cole Hall", "relationship":"friend", "state":"Colorado", "picture":"http://s-media-cache-ak0.pinimg.com/564x/2d/16/3f/2d163f7cb7e8e89932f4a747177f2737.jpg", "memory": "Mike and Dave were messing around with dirtbikes in our back ally. They knew they were probably too drunk to be riding, but hey, Mike liked to live on the edge and Dave is not one for thinking decisions all the way through. Apparently a wheelie went wrong, a rider went down and a peg got busted. Dave and Mike wandered back into the house with guilty looks on their faces. But who could get mad at those two?"}
 
 ]
