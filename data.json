@@ -1,0 +1,4 @@
+contacts_collection = [
+  {"name":"Dave Hall", "relationship":"friend", "state":"Colorado", "picture":"http://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1472081_10151835674769632_1455632347_n.jpg?oh=374d7d0f983da9ff10db593050e04c96&oe=581C71C2", "memory": "Mike claimed he found a bag of fireworks on the way to our wedding. He lit them off the balcony at Tony P’s. He loved to play with fire nearly as much as I do."}
+
+]
