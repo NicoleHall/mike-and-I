@@ -12,8 +12,8 @@
 </div>
 <div ng-hide="editMode" class="container">
   <div>
-    <h3>{{ contact.name }}</h3>
-    <h3 ng-if="contact.relationship">Mike's {{ contact.relationship }} </h3><h3 ng-if="contact.state">from {{ contact.state }}</h3>
+    <h3>{{ contact.name }}
+     ng-if="contact.relationship">Mike's {{ contact.relationship }}  ng-if="contact.state">from {{ contact.state }}</h3>
     <img ng-src="{{contact.picture}}" alt="{{ contact.name }}'s picture'" height="300" width="300"/>
 
     <p ng-if="contact.memory"> {{ contact.memory }} </p>
