@@ -3,7 +3,11 @@ var path = require("path");
 var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
 var ObjectID = mongodb.ObjectID;
-var secrets = require("./secrets");
+
+var secrets = {};
+if (process.env.NODE_ENV !== 'production') {
+  secrets = require("./secrets");
+}
 
 var CONTACTS_COLLECTION = "contacts";
 
