@@ -3,6 +3,7 @@ var path = require("path");
 var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
 var ObjectID = mongodb.ObjectID;
+var secrets = require("./secrets");
 
 var CONTACTS_COLLECTION = "contacts";
 
@@ -14,7 +15,8 @@ app.use(bodyParser.json());
 var db;
 
 // Connect to the database before starting the application server.
-mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) {
+var mongoUrl = process.env.MONGODB_URI ||  secrets.mlab_key;
+mongodb.MongoClient.connect(mongoUrl, function (err, database) {
   if (err) {
     console.log(err);
     process.exit(1);
